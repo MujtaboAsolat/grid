@@ -1,0 +1,271 @@
+*{
+    margin: 0%;
+}
+.menu {
+    grid-area: menu;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    font-family: sans-serif;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+}
+
+li {
+    margin-left: 15px;
+    padding: 10px;
+}
+
+li:hover {
+    background-color: rgb(103, 97, 97);
+    transition-duration: 0.5s;
+}
+
+#search {
+    border: none;
+    margin-left: 50%;
+}
+
+#searchtxt {
+    padding: 7px;
+    margin-left: 5px;
+    border-bottom: 3px solid black;
+    cursor: pointer;
+}
+
+#searchtxt:hover {
+    background-color: white;
+    transition: ease-in;
+    transition-duration: 1s;
+}
+.con1{
+    position: relative;
+    background-color: #E56B1F;
+    height: 1000px;
+    text-align: center;
+}
+.txtM{
+    position:absolute;
+    right: 270px;
+    top: 200px;
+}
+.ford{
+    position:absolute;
+    z-index: 1;
+    right: 200px;
+    top: 250px;
+}
+.M1969{
+    color: white;
+    position: absolute;
+    top: 650px;
+    left: 390px;
+    font-size: 3.5em;
+    width: 800px;
+    z-index: 1;
+}
+.Y{
+    position: absolute;
+    top: 750px;
+    right: 350px;
+}
+.con2{
+    background-image: url(./color.png);
+    background-size: cover;
+    height: 0px;
+}
+.img{
+    position: relative;
+    width: 700px;
+    margin-top: 200px;      
+    left: 130px; 
+}
+.text{
+    position: relative;
+    display: flex;
+    color: white;
+}
+.text p{
+    margin-left: 220px;
+    font-size: 1.2em;
+}
+
+.G{
+    width: 280px;
+}
+.H{
+    width: 400px;
+}
+.I{
+    width: 450px;
+}
+.B{
+    width: 550px;
+    margin-left: 220px;
+}
+.D{
+    width: 430px;
+}
+.E{
+    width: 450px;
+}
+.pic{
+    position: absolute;
+    width: 150px;
+    right: 100px;
+    bottom: 210px;
+}
+.Car{
+    position: absolute;
+    top: 550px;
+    left: 270px;
+}
+.A1{
+    position: absolute;
+    top: 830px;
+    left: 500px;
+    font-size: 2.5em;
+}
+.P{
+    position: absolute;
+    top: 900px;
+    left: 220px;
+    font-size: 2.5em;
+    width: 700px;
+}
+.href{
+    position: absolute;
+    top: 1000px;
+    left: 700px;
+    font-size: 1.5em;
+    border: 2px solid white;
+    padding:10px 0px 10px 20px;
+    width: 130px;
+    text-decoration: none;
+    color: white;
+}
+.href:hover{
+    background-color: white;
+    color: black;
+}
+.con3{
+    background-image: url(./color1.png);
+    height: 2750px;
+    background-size: cover;
+    display: flex;
+    color: white;
+    justify-content: space-between;
+}
+.odin{
+    position: relative;
+    top: 1780px;
+    left: 150px;
+}
+.dwa{
+    position: relative;
+    top: 1900px;
+    right: 100px;
+}
+.if{
+    width: 550px;
+    font-size: 1.2em;
+}
+.Bos{
+    font-size: 2em;
+    width: 600px;
+}
+.but{
+    font-size: 1.3em;
+    width: 580px;
+}
+.Class{
+    width: 550px;
+    font-size: 1.3em;
+}
+.HREF{
+    font-size: 1em;
+    border: 2px solid white;
+    padding:10px 20px 10px 20px;
+    text-decoration: none;
+    color: white;
+    position: absolute;   
+}
+.HREF:hover{
+    background-color: white;
+    color: black;
+}
+.con4{
+    display: flex;
+    background-color:#32064A ;
+    color: white;
+}
+.crown{
+    width: 80%;
+
+}
+.combo{
+    font-size: 2.2em;
+    width: 500px;
+}
+.when{
+    font-size: 1.21em;
+    width: 400px;
+}
+.PIcs{
+    width: 15%;
+    position: relative;
+    left: 150px;
+    bottom: 50px;
+}
+.text12{
+    display: flex;
+}
+.PICS{
+    width: 80%;
+    position: relative;
+    bottom: 50px;
+    left: 100px;
+}
+.B1{
+    margin-left: 150px;
+    margin-top: 50px;
+}
+.B2{
+    margin-right: 200px;
+}
+.then{
+    font-size: 1.5em;
+    margin-top: 150px;
+}
+.con5{
+    width: 100%;
+    background-color: #333333;
+    display: flex;
+    justify-content: center;
+    height: 100px;
+}
+.Template{
+    margin-top: 35px;
+    color: #B296E2;
+}
+.Template:hover{
+    text-decoration: none;
+    color: white;
+}
+.created{
+    margin-top: 35px;
+    margin-left: 10px;
+    color: white;
+}
+.nice{
+    margin-top: 35px;
+    color: #B296E2;
+    margin-left: 10px;
+}
+.nice:hover{
+    text-decoration: none;
+    color: white;
+}
